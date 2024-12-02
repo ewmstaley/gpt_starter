@@ -1,0 +1,5 @@
+hftokenizer/
+*.txt
+*.pt
+*.npy
+__pycache__/
