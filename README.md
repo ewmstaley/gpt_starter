@@ -11,9 +11,7 @@ Use files in the following order:
 - `generate.py` to generate text with your trained model
 
 
-
 Loss curve for a very small model trained on wikitext-103:
-
 ![image](./loss_plot.png)
 
 
