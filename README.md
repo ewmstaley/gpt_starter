@@ -12,7 +12,7 @@ Use files in the following order:
 
 
 
-Loss Curve:
+Loss curve for a very small model trained on wikitext-103:
 
 ![image](./loss_plot.png)
 
@@ -29,8 +29,9 @@ Example Generations (**input in bold**):
 
 ### Extensions
 
-To get improved (usable) results, train a sufficiently sized model over many billions of tokens. I highly recommend using multiple GPUs if available, and something like HF Accelerate. I may post a parallelized example at a later date.
-If you are not looking to make changes to the GPT model but rather are trying to simply train a compoetent language model, I would not start with code that is this low-level. Pull down or build a huggingface model, (re)initialize the parameters, and use their ecosystem. 
+To get improved (usable) results, train a sufficiently sized model over many billions of tokens. I highly recommend using multiple GPUs if available, and something like huggingface accelerate. I may post a parallelized example at a later date.
+
+If you are not looking to make changes to the GPT model but rather are trying to simply train a compoetent language model, I would not start with this repository as it is meant to examine or change the underlying GPT2 architecture. Instead, pull down or build a huggingface model, (re)initialize the parameters, and use their ecosystem for training. 
 
 
 ### License
