@@ -27,6 +27,11 @@ Example Generations (**input in bold**):
 **The Godfather is a film about** the negative effect of evil and soul. However, it was adapted into an abortive biography written by Herman Whitman in 1983 during Tree Films for which Tarantino compares her impression to Ikherjohn's book The Titans : An Adventure Time Christmas as its main villain who transcendes history with many defects such as children under birthboards that entertain people never enjoy their lives outside society or else will later serve usatically until human
 
 
+### Extensions
+
+To get improved (usable) results, train a sufficiently sized model over many billions of tokens. I highly recommend using multiple GPUs if available, and something like HF Accelerate. I may post a parallelized example at a later date.
+If you are not looking to make changes to the GPT model but rather are trying to simply train a compoetent language model, I would not start with code that is this low-level. Pull down or build a huggingface model, (re)initialize the parameters, and use their ecosystem. 
+
 
 ### License
 
